@@ -50,8 +50,8 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">Bem Vindo</h1>
-          <h2 class="masthead-subheading mb-0">ao DoaLar</h2>
+          <h1 class="masthead-heading mb-0">Cadastre-se</h1>
+          <h2 class="masthead-subheading mb-0">E Junte-se a Nós</h2>
           <a href="saibaMais.html" class="btn btn-primary btn-xl rounded-pill mt-5">Saiba Mais!</a>
         </div>
       </div>
@@ -63,75 +63,40 @@
 
     <section>
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-left">
           <div class="col-lg-6 order-lg-2">
             <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
             <div class="p-5">
-              <h2 class="display-4">Lar Aninha</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+              <h2 class="display-4">Cadastro</h2>
+<br>
+              <div class="form-group row">
+                <label for="nome"><h5>Nome Completo</h5></label></label>
+                <input type="text" class="form-control" id="nome" size="50">
+              </div>
+<br>
+              <div class="form-group row">
+                  <label for="nome"><h5>E-mail</h5></label>
+                  <input type="email" class="form-control" id="email" size="50">
+                </div>
+<br>
+              <div class="form-group row">
+                  <label for="nome"><h5>Telefone Fixo</h5></label>
+                  <input type="text" class="form-control" id="foneF" size="50">
+              </div>
+<br>
+              <div class="form-group row">
+                  <label for="nome"><h5>Senha</h5></label>
+                  <input type="text" class="form-control" id="foneF" size="50">
+              </div>
+<br>
+              <button type="button" class="btn btn-primary">Concluir</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 class="display-4">Lar Coronel João Leite</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="display-4">Lar Emanuel</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 class="display-4">Lar Alma Mater</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <!-- Footer -->
     <footer class="py-5 bg-black">
