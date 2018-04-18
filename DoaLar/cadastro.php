@@ -64,7 +64,7 @@
     <section>
       <div class="container">
         <div class="row align-items-left">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-1">
             <div class="p-5">
             </div>
           </div>
@@ -90,6 +90,23 @@
                   <label for="nome"><h5>Senha</h5></label>
                   <input type="text" class="form-control" id="foneF" size="50">
               </div>
+<br>
+    <div class="form-group row">
+    <h5>Deseja fazer parte do ranking dos doadores?</h5>
+    </div>
+    <div class="form-group row">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+          Sim
+        </label>
+<br>
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          Não
+        </label>
+      </div>
+      </div>
 <br>
               <button type="button" class="btn btn-primary">Concluir</button>
             </div>
