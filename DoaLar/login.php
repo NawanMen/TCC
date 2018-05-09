@@ -30,7 +30,7 @@
       <div class="container">
         <a class="navbar-brand" href="home.html">Home</a>
         <a class="navbar-brand" href="#">Doações</a>
-        <a class="navbar-brand" href="#">Galeria</a>
+        <a class="navbar-brand" href="galeria.html">Galeria</a>
         <a class="navbar-brand" href="faleConosco.php">Fale Conosco</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
