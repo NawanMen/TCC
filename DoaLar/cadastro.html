@@ -51,8 +51,8 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">Saiba Tudo</h1>
-          <h2 class="masthead-subheading mb-0">Sobre nosso Trabalho</h2>
+          <h1 class="masthead-heading mb-0">Cadastre-se</h1>
+          <h2 class="masthead-subheading mb-0">E Junte-se a Nós</h2>
           <a href="saibaMais.html" class="btn btn-primary btn-xl rounded-pill mt-5">Saiba Mais!</a>
         </div>
       </div>
@@ -61,26 +61,72 @@
       <div class="bg-circle-3 bg-circle"></div>
       <div class="bg-circle-4 bg-circle"></div>
     </header>
-
+    
     <section>
-      <div class="p-5">
       <div class="container">
-        <div class="text-align=center">
-          <h2>Quem somos</h2>
-          <p>!Nossas Fotos!</p>
+        <div class="row align-items-left">
+          <div class="col-lg-6 order-1">
+            <div class="p-5">
+            </div>
           </div>
+            <div class="p-5">
+              <h2 class="display-4">Cadastro</h2>
 <br>
-          <div class="text-align-center">
-          <h2>A Importância de sua Doação</h2>
-          <p>!Decrição!</p>
-          </div>
-          <div class="text-align=center">
-          <h2>Como Doar</h2>
-          <p>!Descrição!</p>
-          </div>
-          </div>
-    </section>
+              <div class="form-group row">
+                <form method="POST" action="cadastro.php">
+                <label><h5>Nome Completo</h5></label>
+                <input type="text" class="form-control" name="nome" id="nome" size="70"><br>
+              </div>
+<br>
+              <div class="form-group row">
+                <form method="POST" action="cadastro.php">
+                <label><h5>E-Mail</h5></label>
+                <input type="text" class="form-control" name="email" id="email" size="50"><br>
+              </div>
+<br>
+              <div class="form-group row">
+                <form method="POST" action="cadastro.php">
+                <label><h5>Telefone Fixo</h5></label>
+                <input type="text" class="form-control" name="foneFixo" id="foneFixo" size="50"><br>
+              </div>
+<br>
+              <div class="form-group row">
+                <form method="POST" action="cadastro.php">
+                <label><h5>Telefone Móvel</h5></label>
+                <input type="text" class="form-control" name="foneMovel" id="foneMovel" size="50"><br>
+              </div>
+<br>
+              <div class="form-group row">
+                <form method="POST" action="cadastro.php">
+                <label><h5>Senha</h5></label>
+                <input type="password" class="form-control" name="senha" id="senha" size="50">
+              </div>
+<br>
+              <div class="form-group row">
+                <h5>Deseja fazer parte do ranking dos doadores?</h5>
+              </div>
 
+            <div class="form-group row">
+              <div class="form-check">
+                <form method="POST" action="cadastro.php">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios" value="option1" checked="">
+                    Sim
+                </label>
+<br>
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          Não
+        </label>
+      </div>
+      </div>
+<br>
+              <input type="submit" class="btn btn-primary" value="Cadastrar" id="cadastrar" name="cadastrar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-black">
